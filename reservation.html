@@ -1,0 +1,81 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible"
+content="IE-edge">
+<title>Reservation Form</title>
+<style>
+@import url ('https://fonts-googleapis.com/css2? family-poppins:wght@300;500,700&display-swap');
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+}
+body {
+font-family: ' poppins' , sans-serif;
+}
+.banner{
+min-height: 100vh;
+background: linear-gradient(black(0,0,0,0,5)), url("hawer.jpg") center/cover no-repeat;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color: black;
+padding-bottom:200px;
+}
+.card-container: display:grid;
+grid-template-column: 420px 420px;
+}
+.card-img{
+background: url("resto.jpg");
+}
+
+
+</style>
+
+<meta name="viewport"
+content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+<section class="banner">
+<h2>Book your table now</h2>
+<div class ="card-container">
+<div class="card-img">
+
+</div>
+<div class="card-content">
+<h3>Reservation</h3>
+<form>
+<div class="form-row">
+<select name="Days">
+<option value="day-select">Select Day</option>
+<option value="sunday">Sunday</option>
+<option value="Monday">Monday</option>
+<option value="Tuesday">Tuesday</option>
+<option value="wednesday"Wednesday</option>
+<option value="Thursday">Thursday</option>
+<option value="Friday">Friday</option>
+<option value="Saturday">Saturday</option>
+</select>
+<select name="hours">
+<option value="day-select">Select hours</option>
+<option value="10">10:00</option>
+<option value="10">12:00</option>
+<option value="10">14:00</option>
+<option value="10">16:00</option>
+<option value="10">18:00</option>
+<option value="10">20:00</option>
+<option value="10">22:00</option>
+</select>
+</div>
+<div class="form-row">
+<input type="text" placeholder="Full Name">
+<input type="text" placeholder="phone Number">
+</div>
+<div class="form-row">
+<input type="number" placeholder="How Many Persons ?" min="1">
+<input type="submit" value="Book Table">
+</div>
+

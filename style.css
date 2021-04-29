@@ -1,0 +1,298 @@
+.body{
+	
+	font-family: 'cairo' , sans-serif;
+	background-color: white;
+	
+}
+
+.main{
+	width:100%;
+	height:100vh;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.container{
+	width:90%;
+	height:95%;
+	display:flex;
+	box-shadow:1px 2px 3px gray(0,0,0,0.75);
+}
+
+.left-side{
+	width: 20%;
+	display: flex;
+	align-items:center;
+	flex-direction:column;
+	background-color:gray;
+}
+
+.logo{
+	width:150px;
+	height:150px;
+	background-image: url(68162791-engraving-vintage-hand-drawn-restaurant-menu-food-doodle-collage-pencil-sketch-fries-coda-burger-ill.jpg);
+	background-size:cover;
+	background-position: center-center;
+	margin-top:50px;
+}
+.nav a{
+	display: flex;
+	flex-direction: column;
+	font-size: 14px;
+	color: black;
+	margin-top: 20px;
+}
+.nav a{
+	
+	margin-bottom: 15px;
+	letter-spacing: 3px;
+	
+}
+.nav a{
+	text-decoration:none;
+	color:black;
+}
+
+.active{
+	color: black;
+}
+.content{
+	width:70%;
+	display:flex;
+	flex-direction:column;
+	background: white;
+}
+
+.header{
+	margin:20px 1px 20px 0px;
+	width:90%;
+	display:flex;
+	justify-content: center;
+	color:white;
+}
+
+.header span{
+	font-size:14px;
+	margin-top: 5px;
+	margin-left: 50px;
+	
+}
+.header a{
+	text-decoration:none;
+	color:white;
+}
+
+
+.lined{
+	border-bottom: 4px solid black;
+}
+.images{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.img{
+	background-color: white;
+	margin: 10px;
+	width:200px;
+	height: 220px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.pages{
+	width: 90%;
+	height: 200px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	margin-left: 30px;
+}
+.circl{
+	width:70%;
+	display: flex;
+	justify-content: center;
+}
+.circls{
+	width:7px;
+	height:7px;
+	border-radius: 100%;
+	border: 1px solid black;
+	margin-left:6px
+}
+.pageIn{
+	background-color: black:
+}
+.content-info{
+	width: 40%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	box-shadow: -10px -1px 28px -14px black(0,0,0,0.75);
+}
+.close{
+width: 90%
+margin:15px;
+text-align: right:
+}
+.cover{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+}
+.desc{
+	width: 90%;
+	margin: 10px;
+}
+.desc p{
+	font-size: 14px;
+}
+.btn{
+	width:80%;
+	display: flex;
+	justify-content: space between;
+	margin-left:10px;
+}
+.btn button{
+	background: transparent;
+	color:black;
+	width:100px;
+	outline:none;
+	border: 1px solid black;
+	margin-left: 40px;
+}
+.btn span{
+	font-size:18px;
+	margin-right:5px
+}
+
+.body{
+	font-size:15px;
+	line-height:1.52;
+	color:black;
+	font-family:'open',sans-serif;
+	font-weight:400;
+	overflow-x:hidden;
+}
+.section-padding{
+	padding:60px 0px;
+}
+.marb-35{
+	margin-bottom:35px;
+}
+.header-h{
+	font-size:35px;
+	color:orange;
+	font-family:'satisfy',sans-serif;
+	font-weight: 300;
+}
+#menu-filters ul li{
+	display:inline-block;
+	color:black;
+	text-transform:capitalize;
+	letter-spacing:1px;
+	margin-bottom:40px;
+}
+#menu-filters ul li{
+	padding:10px 20px;
+	font-size:14px;
+	color:black;
+	border-radius:1px;
+	border:1px; solid black;
+	text-decoration:none;
+	cursor:pointer;
+}
+#menu-filters ul li active,#menu-filters ul li a:hover{
+	background:yellow;
+	border:1px solid yellow;
+}
+.menu-restaurant{
+	width:50%;
+	float:left;
+	padding:15px
+	position:relative;
+}
+.menu-resturant	.menu-title{
+	float:left;
+	font-family:Montserrat,arial;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:yellow;
+}
+
+.form-row{
+	box-sizing:bonder-box;
+	padding:0;
+	margin:0;
+}
+
+*{
+	box-sizing:bonder-box;
+	padding:0;
+	margin:0;
+}
+
+.body{
+	font-family:"poppins",sans-serif;
+	background: url('banner-img.jpg') no-repeat;
+}
+
+.banner {
+	min-height:100vh;
+	background:linear-gradient(black(0, 0, 0, 0, 5)), url('banner-img.jpg') center/cover no-repeat;
+ 
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	color:white;
+	padding-bottom:20px;
+}
+
+	
+
+	
+
+.card-container {
+	display:grid;
+	grid-template-columns:420px 420px;
+	
+	
+	
+}
+.banner h2 {
+padding-bottom:40px;
+margin-bottom:200px;
+
+}
+.card-content h3 {
+	background:white;
+	height:330px;
+	
+}
+.card-content{
+	text-align:center;
+	color:black;
+	padding:25px 0 10px 0;
+	font-size:26px;
+	font-weight: 500;
+
+}
+
+
+	
+
+
+	
+	
+
+	
+
+
+	
+	
+	
